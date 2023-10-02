@@ -3,6 +3,8 @@ import Banner from "../assets/images/banner.jpg";
 import { Link } from "react-router-dom";
 import data from "./bannerData";
 import HomeSections2 from "./HomeSections/HomeSections2";
+import HomeSection3 from "./HomeSections/HomeSection3";
+import Marquees from "./HomeSections/Marquees";
 
 const Home = () => {
   return (
@@ -48,6 +50,8 @@ const Home = () => {
         </div>
       </section>
       <HomeSections2/>
+      <HomeSection3 />
+      <Marquees/>
     </>
   );
 };
