@@ -10,7 +10,22 @@ const Marquees = () => {
           <div className="col-12">
             <div className="marque-inner-wrapper card-wrapper">
               <Marquee className="d-flex">
-                <div>
+                <div className="mx-4 w-25">
+                  <img src={AppleLogo} className="marq-img" alt="brand" />
+                </div>
+                <div className="mx-4 w-25">
+                  <img src={AppleLogo} className="marq-img" alt="brand" />
+                </div>
+                <div className="mx-4 w-25">
+                  <img src={AppleLogo} className="marq-img" alt="brand" />
+                </div>
+                <div className="mx-4 w-25">
+                  <img src={AppleLogo} className="marq-img" alt="brand" />
+                </div>
+                <div className="mx-4 w-25">
+                  <img src={AppleLogo} className="marq-img" alt="brand" />
+                </div>
+                <div className="mx-4 w-25">
                   <img src={AppleLogo} className="marq-img" alt="brand" />
                 </div>
               </Marquee>

@@ -5,6 +5,7 @@ import data from "./bannerData";
 import HomeSections2 from "./HomeSections/HomeSections2";
 import HomeSection3 from "./HomeSections/HomeSection3";
 import Marquees from "./HomeSections/Marquees";
+import LatestNews from "./HomeSections/LatestNews";
 
 const Home = () => {
   return (
@@ -52,6 +53,7 @@ const Home = () => {
       <HomeSections2/>
       <HomeSection3 />
       <Marquees/>
+      <LatestNews/>
     </>
   );
 };
