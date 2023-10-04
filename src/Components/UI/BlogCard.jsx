@@ -14,7 +14,7 @@ const BlogCard = () => {
             <div className="blog-content">
               <p className="date">{blog.date}</p>
               <h5 className="title">{blog.title}</h5>
-              <p className="desc">{blog.desc}</p>
+              <p className="desc fs-small">{blog.desc}</p>
               <Link to={blog.link} className="button">Read More</Link>
             </div>
           </div>
