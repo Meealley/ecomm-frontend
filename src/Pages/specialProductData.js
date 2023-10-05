@@ -3,7 +3,7 @@ import Perfume from "../assets/images/perfume.webp";
 import SanDisk from "../assets/images/sandisk.webp";
 import noodles from '../assets/images/noodles.webp';
 
-const productCardData = [
+const specialProductData = [
   {
     id: 1,
     title: "SanDisk Extreme SSD - 4TB - Up To 1050mb/s",
@@ -38,4 +38,4 @@ const productCardData = [
   },
 ];
 
-export default productCardData;
+export default specialProductData;

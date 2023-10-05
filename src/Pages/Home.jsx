@@ -7,6 +7,8 @@ import HomeSection3 from "./HomeSections/HomeSection3";
 import Marquees from "./HomeSections/Marquees";
 import LatestNews from "./HomeSections/LatestNews";
 import Collections from "./HomeSections/Collections";
+import SpecialProduct from "./HomeSections/SpecialProduct";
+// import PopularProduct from "./HomeSections/PopularProducts";
 
 const Home = () => {
   return (
@@ -53,8 +55,10 @@ const Home = () => {
       </section>
       <HomeSections2/>
       <HomeSection3 />
-      <Marquees/>
       <Collections/>
+      <SpecialProduct/>
+      {/* <PopularProduct/> */}
+      <Marquees/>
       <LatestNews/>
     </>
   );

@@ -1,4 +1,5 @@
 import React from 'react'
+import ProductCard from '../../Components/UI/ProductCard'
 
 const Collections = () => {
   return (
@@ -8,7 +9,7 @@ const Collections = () => {
         <div className="col-12">
           <h3 className="section-heading">Featured collections</h3>
         </div>
-        
+        <ProductCard />
       </div>
     </div>
   </section>

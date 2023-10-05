@@ -6,8 +6,8 @@ const BlogCard = () => {
   return (
     <>
       {blogData.map((blog) => (
-        <div className="col-3">
-          <div className="blog-card">
+        <div key={blog.id} className="col-3">
+          <div  className="blog-card">
             <div className="card-image">
               <img src={blog.image} className="img-fluid" alt={blog.title} />
             </div>
