@@ -358,19 +358,75 @@ footer .input-group-text {
 } */
 
 /* this is for the famous card  */
-.famous-card img{
+.famous-card img {
   width: 300px;
   height: 300px;
   object-fit: cover;
   border-radius: 10px;
   box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.2);
-  
 }
 .famous-card .famous-content {
   top: 10%;
   left: 10%;
-} 
+}
 
 /* .famous-content  {
   color: var(--color-fc353c00);
 } */
+
+/* Our store  */
+.filter-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+.filter-title {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  color: var(--color-131921);
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.filter-card ul,
+.filter-card .form-label {
+  list-style-type: none;
+  font-size: 13px;
+  line-height: 30px;
+  color: var(--color-777777);
+  cursor: pointer;
+}
+.filter-card .form-check-input:focus {
+  box-shadow: none;
+}
+.filter-card .form-check-input:checked {
+  background-color: var(--color-febd69);
+  border-color: rgba(0, 0, 0, 0.2);
+}
+.sub-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-3b4149);
+  margin-bottom: 15px;
+}
+.colors {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+gap: 8px;
+}
+.colors li {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.random-products img{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.random-products h5 {
+  font-size: 14px;
+}

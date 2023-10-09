@@ -1,12 +1,18 @@
-import React from 'react'
-import BreadCrumb from '../Components/BreadCrumb'
+import React from "react";
+import BreadCrumb from "../Components/BreadCrumb";
+import { Helmet } from "react-helmet";
 
 const Contact = () => {
   return (
     <>
-      <BreadCrumb title = 'Contact' />
-    </>
-  )
-}
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Contact</title>
+      </Helmet>
 
-export default Contact
+      <BreadCrumb title="Contact" />
+    </>
+  );
+};
+
+export default Contact;
