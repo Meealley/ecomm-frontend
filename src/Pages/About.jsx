@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import BreadCrumb from "../Components/BreadCrumb";
 
 const About = () => {
   return (
-    <div>
-      about page
-    </div>
-  )
-}
+    <>
+      <BreadCrumb title="About" />
+    </>
+  );
+};
 
-export default About
+export default About;

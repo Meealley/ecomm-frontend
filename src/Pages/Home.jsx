@@ -9,6 +9,7 @@ import LatestNews from "./HomeSections/LatestNews";
 import Collections from "./HomeSections/Collections";
 import SpecialProduct from "./HomeSections/SpecialProduct";
 import PopularProduct from "./HomeSections/PopularProducts";
+import FamousSection from "./HomeSections/FamousSection";
 
 const Home = () => {
   return (
@@ -56,6 +57,7 @@ const Home = () => {
       <HomeSections2/>
       <HomeSection3 />
       <Collections/>
+      <FamousSection/>
       <SpecialProduct/>
       <PopularProduct/>
       <Marquees/>

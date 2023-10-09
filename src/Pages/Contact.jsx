@@ -1,10 +1,11 @@
 import React from 'react'
+import BreadCrumb from '../Components/BreadCrumb'
 
 const Contact = () => {
   return (
-    <div>
-      Contact page
-    </div>
+    <>
+      <BreadCrumb title = 'Contact' />
+    </>
   )
 }
 

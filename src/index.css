@@ -356,3 +356,21 @@ footer .input-group-text {
 /* .special-product-card .badge {
   background-color: var(--color-fc353c00) !important;
 } */
+
+/* this is for the famous card  */
+.famous-card img{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.2);
+  
+}
+.famous-card .famous-content {
+  top: 10%;
+  left: 10%;
+} 
+
+/* .famous-content  {
+  color: var(--color-fc353c00);
+} */
